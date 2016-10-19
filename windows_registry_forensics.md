@@ -13,13 +13,10 @@
 * Peter Norris's master's thesis, [The Internal Structure of the Windows Registry](http://amnesia.gtisc.gatech.edu/%7Emoyix/suzibandit.ltd.uk/MSc/)
 
 ## Useful Links: 
-[Yogesh Khatri's Blog post on AmCache.hve](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html)
-
-[Corey Harrell's Blog post on Exploring the Application Experience and Compatibility feature](http://journeyintoir.blogspot.in/2013/12/revealing-recentfilecachebcf-file.html)
-
-[Alex Ionescu's Blog post on Secrets of the Application Compatilibity Database](http://www.alex-ionescu.com/?p=39)
-
-[Mark Russinovich’s “Inside the Registry” article in Windows NT Magazine](http://technet.microsoft.com/en-us/library/cc750583.aspx)
+* [Yogesh Khatri's Blog post on AmCache.hve](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html)
+* [Corey Harrell's Blog post on Exploring the Application Experience and Compatibility feature](http://journeyintoir.blogspot.in/2013/12/revealing-recentfilecachebcf-file.html)
+* [Alex Ionescu's Blog post on Secrets of the Application Compatilibity Database](http://www.alex-ionescu.com/?p=39)
+* [Mark Russinovich’s “Inside the Registry” article in Windows NT Magazine](http://technet.microsoft.com/en-us/library/cc750583.aspx)
 
 # Processes and Tools
 ## Viewers
@@ -47,11 +44,11 @@
 * Parse::Win32 contains a tool regscan.pl which could be modified to only display unallocated (deleted) keys and values from a hive file
 
 ## Userful Links:
-[Didier Stevens' UserAssist tool](http://blog.didierstevens.com/programs/userassist/)
-[Mandiant's ShimCacheParser tool](https://github.com/mandiant/ShimCacheParser) and [paper](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf) on the tools purpose 
-[Eric Zimmerman's Blog Binary Foray](https://binaryforay.blogspot.com/) and developed tools, [ShellBag Explorer, Registry Explorer, and AmCacheParser](https://ericzimmerman.github.io/)
-[Willi Ballenthin's amcache.py script](https://github.com/williballenthin/python-registry/blob/master/samples/amcache.py)
-[Harlan Carvey's RegRipper](https://github.com/keydet89/RegRipper2.8)
+* [Didier Stevens' UserAssist tool](http://blog.didierstevens.com/programs/userassist/)
+* [Mandiant's ShimCacheParser tool](https://github.com/mandiant/ShimCacheParser) and [paper](https://dl.mandiant.com/EE/library/Whitepaper_ShimCacheParser.pdf) on the tools purpose 
+* [Eric Zimmerman's Blog Binary Foray](https://binaryforay.blogspot.com/) and developed tools, [ShellBag Explorer, Registry Explorer, and AmCacheParser](https://ericzimmerman.github.io/)
+* [Willi Ballenthin's amcache.py script](https://github.com/williballenthin/python-registry/blob/master/samples/amcache.py)
+* [Harlan Carvey's RegRipper](https://github.com/keydet89/RegRipper2.8)
 
 # Analyzing the System Hives
 ## Intro
@@ -92,7 +89,7 @@ Techniques used by malware: right-to-left encoding to hide a malicious service w
 * HKLM\SYSTEM\CurrentControlSet\Enum\USB - identical to above
 
 ### Useful Links
-[How to Hide Malware in Unicode](http://www.secureworks.com/resources/blog/how-to-hide-malware-in-unicode)
+* [How to Hide Malware in Unicode](http://www.secureworks.com/resources/blog/how-to-hide-malware-in-unicode)
 
 ## Software Hive
 Note: Registry redirection is used by 64-bit Windows OS to handle the difference between 32-bit and 64-bit software.
@@ -119,10 +116,10 @@ Note: Registry redirection is used by 64-bit Windows OS to handle the difference
 Malware can each use novel ways of hiding under other programs or devices
 
 ### Useful LInks
-[Using Image File Execution option as an Attack Vector on Windows](http://silverstr.ufies.org/blog/archives/000809.html)
-[Using and Abusing Microsoft's Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf)
-[How EMET Works](http://0xdabbad00.com/2010/09/12/how-emet-works/)
-[Forensic Analysis of Sound Mixer](http://www.ghettoforensics.com/2014/11/dj-forensics-analysis-of-sound-mixer.html)
+* [Using Image File Execution option as an Attack Vector on Windows](http://silverstr.ufies.org/blog/archives/000809.html)
+* [Using and Abusing Microsoft's Fix It Patches](https://www.blackhat.com/docs/asia-14/materials/Erickson/WP-Asia-14-Erickson-Persist-It-Using-And-Abusing-Microsofts-Fix-It-Patches.pdf)
+* [How EMET Works](http://0xdabbad00.com/2010/09/12/how-emet-works/)
+* [Forensic Analysis of Sound Mixer](http://www.ghettoforensics.com/2014/11/dj-forensics-analysis-of-sound-mixer.html)
 
 ## AmCache Hive
 * Files - contains subkeys mapping to file references and last modified time stamps

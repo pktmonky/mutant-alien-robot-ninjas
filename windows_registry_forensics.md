@@ -14,8 +14,11 @@
 
 ## Useful Links: 
 [Yogesh Khatri's Blog post on AmCache.hve](http://www.swiftforensics.com/2013/12/amcachehve-in-windows-8-goldmine-for.html)
+
 [Corey Harrell's Blog post on Exploring the Application Experience and Compatibility feature](http://journeyintoir.blogspot.in/2013/12/revealing-recentfilecachebcf-file.html)
+
 [Alex Ionescu's Blog post on Secrets of the Application Compatilibity Database](http://www.alex-ionescu.com/?p=39)
+
 [Mark Russinovich’s “Inside the Registry” article in Windows NT Magazine](http://technet.microsoft.com/en-us/library/cc750583.aspx)
 
 # Processes and Tools
